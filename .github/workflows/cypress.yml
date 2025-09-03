@@ -21,7 +21,7 @@ jobs:
           # Starts web server for E2E tests - replace with your own server invocation
           # https://docs.cypress.io/guides/continuous-integration/introduction#Boot-your-server
           install-command: npm install 
-          wait-on: 'http://petlov.vercel.app' # Waits for above
+          wait-on: 'https://petlov.vercel.app' # Waits for above
           # Records to Cypress Cloud 
           # https://docs.cypress.io/guides/cloud/projects#Set-up-a-project-to-record
           record: true
